@@ -50,4 +50,4 @@ lastyear = (float(previousyearmonth)-float(currentmonth))
 
 
 print verb, abs(pctchange)
-print "WASHINGTON (AP) -- The United States' unemployment rate %s last month, to %s percent. That represents a percent change %s of percent from two months ago. That is %f percentage points %s than this time last year, according to the Bureau of Labor Statistics." % (verb, currentmonth, lastyear, abs(pctchange), adjective)
+print "WASHINGTON (AP) -- The United States' unemployment rate %s last month, to %s percent. That represents a percent change %s of percent from two months ago. That is %.2f percentage points %s than this time last year, according to the Bureau of Labor Statistics." % (verb, currentmonth, lastyear, abs(pctchange), adjective)
